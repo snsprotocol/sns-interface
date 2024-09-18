@@ -39,6 +39,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
   });
 
   return (
+    <>
     <Component
       {...getBaseProps({
         className: clsx(
@@ -77,5 +78,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
         )}
       </div>
     </Component>
+    </>
+    
   );
 };

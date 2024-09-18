@@ -2,7 +2,8 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "SNS | Sonic Name Service",
-  description: "With SNS, it's time to make your mark on the Sonic network with custom name that's all yours. Fast, easy, and secure.",
+  description:
+    "With SNS, it's time to make your mark on the Sonic network with custom name that's all yours. Fast, easy, and secure.",
   navItems: [
     {
       label: "Docs",
@@ -45,6 +46,6 @@ export const siteConfig = {
     docs: "https://docs.sns.net",
     discord: "https://discord.gg",
     sonic: "https://soniclabs.com/",
-    burnToMint: "https://wigoswap.io/burn-to-mint"
+    burnToMint: "https://wigoswap.io/burn-to-mint",
   },
 };
