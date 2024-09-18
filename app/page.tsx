@@ -10,16 +10,12 @@ import { GithubIcon } from "@/components/icons";
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4">
-
       <div className="inline-block max-w-xl text-center justify-center">
-
         <h1 className={title()}>Secure Your&nbsp;</h1>
         <h1 className={title({ color: "sonic" })}>.S&nbsp;</h1>
         <h1 className={title()}>Domain</h1>
         <br />
-        <h1 className={title()}>
-          and Stand Out in the Sonic
-        </h1>
+        <h1 className={title()}>and Stand Out in the Sonic</h1>
         <h2 className={subtitle({ class: "mt-4" })}>
           Simple, powerful, and uniquely yours.
         </h2>
@@ -50,18 +46,20 @@ export default function Home() {
       <div className="mt-4">
         <Snippet hideCopyButton hideSymbol variant="bordered">
           <span>
-            $SNS: <Code color="primary"><Link
-          isExternal
-          size="sm"
-          color="primary"
-          href={siteConfig.links.burnToMint}
-        >
-          wigoswap.io/burn-to-mint
-        </Link></Code>
+            $SNS:{" "}
+            <Code color="primary">
+              <Link
+                isExternal
+                color="primary"
+                href={siteConfig.links.burnToMint}
+                size="sm"
+              >
+                wigoswap.io/burn-to-mint
+              </Link>
+            </Code>
           </span>
         </Snippet>
       </div>
-      
     </section>
   );
 }
