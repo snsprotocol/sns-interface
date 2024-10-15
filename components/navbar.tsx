@@ -85,7 +85,7 @@ export const Navbar = () => {
             size="sm"
             variant="flat"
           >
-            Mint Now!
+            Mint Now
           </Button>
         </NavbarItem>
       </NavbarContent>
