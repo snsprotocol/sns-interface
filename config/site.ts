@@ -7,45 +7,44 @@ export const siteConfig = {
   navItems: [
     {
       label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Governance",
-      href: "/governance",
+      href: "https://docs.sns.net",
+      isExternal: true,
     },
     {
       label: "Blog",
-      href: "/blog",
+      href: "https://medium.com",
+      isExternal: true,
     },
     {
       label: "Roadmap",
-      href: "/roadmap",
+      href: "https://docs.sns.net/intro/sns-roadmap",
+      isExternal: true,
     },
   ],
   navMenuItems: [
     {
       label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Governance",
-      href: "/governance",
+      href: "https://docs.sns.net",
+      isExternal: true,
     },
     {
       label: "Blog",
-      href: "/blog",
+      href: "https://medium.com",
+      isExternal: true,
     },
     {
       label: "Roadmap",
-      href: "/roadmap",
+      href: "https://docs.sns.net/intro/sns-roadmap",
+      isExternal: true,
     },
   ],
   links: {
     github: "https://github.com/snsprotocol",
-    twitter: "https://x.com/snsprotocol",
+    twitter: "https://x.com/SonicSNS",
     docs: "https://docs.sns.net",
-    discord: "https://discord.gg",
+    telegramChannel: "https://t.me/SonicSNS",
     sonic: "https://soniclabs.com/",
     burnToMint: "https://wigoswap.io/burn-to-mint",
+    medium: "https://medium.com",
   },
 };
