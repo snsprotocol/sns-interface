@@ -46,7 +46,7 @@ export default function Home() {
       <div className="mt-4">
         <Snippet hideCopyButton hideSymbol variant="bordered">
           <span>
-            $SNS:{" "}
+            Mint SNS Token:{" "}
             <Code color="primary">
               <Link
                 isExternal
