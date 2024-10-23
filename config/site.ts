@@ -12,7 +12,7 @@ export const siteConfig = {
     },
     {
       label: "Blog",
-      href: "https://medium.com",
+      href: "https://medium.com/@SonicSNS",
       isExternal: true,
     },
     {
@@ -29,7 +29,7 @@ export const siteConfig = {
     },
     {
       label: "Blog",
-      href: "https://medium.com",
+      href: "https://medium.com/@SonicSNS",
       isExternal: true,
     },
     {
