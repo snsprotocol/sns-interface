@@ -45,6 +45,6 @@ export const siteConfig = {
     telegramChannel: "https://t.me/SonicSNS",
     sonic: "https://soniclabs.com/",
     burnToMint: "https://wigoswap.io/burn-to-mint",
-    medium: "https://medium.com",
+    medium: "https://medium.com/@SonicSNS",
   },
 };
