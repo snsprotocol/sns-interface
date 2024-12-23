@@ -40,7 +40,7 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/snsprotocol",
-    twitter: "https://x.com/SonicSNS",
+    twitter: "https://x.com/dotsdomains",
     docs: "https://docs.sns.net",
     telegramChannel: "https://t.me/SonicSNS",
     sonic: "https://soniclabs.com/",
