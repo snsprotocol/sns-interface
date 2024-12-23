@@ -46,16 +46,8 @@ export default function Home() {
       <div className="mt-4">
         <Snippet hideCopyButton hideSymbol variant="bordered">
           <span>
-            Mint SNS Token:{" "}
-            <Code color="primary">
-              <Link
-                isExternal
-                color="primary"
-                href={siteConfig.links.burnToMint}
-                size="sm"
-              >
-                wigoswap.io/burn-to-mint
-              </Link>
+            <Code color="warning">
+            SNS will soon migrate from Fantom to Sonic
             </Code>
           </span>
         </Snippet>
