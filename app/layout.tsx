@@ -280,7 +280,7 @@ export default function RootLayout({
             </main>
             <footer className="w-full flex flex-col items-center justify-center">
               <span className="text-default-500 py-6 text-xs">
-                SNS, Copyright, 2024. All Rights Reserved.
+                SNS, Copyright, 2025. All Rights Reserved.
               </span>
               <div className="w-full">
                 <svg

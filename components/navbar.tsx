@@ -79,13 +79,13 @@ export const Navbar = () => {
           <Button
             isExternal
             as={Link}
+            href={siteConfig.links.migration}
             className="font-normal text-default-600 bg-default-100 bg-gradient-to-tr from-[#ec5409] to-[#214e82] text-white shadow-lg"
             radius="full"
             size="sm"
             variant="flat"
-            disabled
           >
-            Migrate Soon
+            Claim Now
           </Button>
         </NavbarItem>
       </NavbarContent>

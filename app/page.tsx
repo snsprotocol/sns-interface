@@ -46,9 +46,12 @@ export default function Home() {
       <div className="mt-4">
         <Snippet hideCopyButton hideSymbol variant="bordered">
           <span>
-            <Code color="warning">
-            SNS will soon migrate from Fantom to Sonic
-            </Code>
+            Claim your SNS on Sonic:
+            <Link isExternal href={siteConfig.links.migration}>
+              <Code color="primary" className="ml-2">
+                defive.com/migration
+              </Code>
+            </Link>
           </span>
         </Snippet>
       </div>
