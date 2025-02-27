@@ -44,7 +44,7 @@ export const siteConfig = {
     docs: "https://docs.sns.net",
     telegramChannel: "https://t.me/SonicSNS",
     sonic: "https://soniclabs.com/",
-    burnToMint: "https://wigoswap.io/burn-to-mint",
+    migration: "https://defive.com/migration",
     medium: "https://medium.com/@SonicSNS",
   },
 };
