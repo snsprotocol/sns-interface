@@ -44,7 +44,7 @@ export const siteConfig = {
     docs: "https://docs.sns.net",
     telegramChannel: "https://t.me/SonicSNS",
     sonic: "https://soniclabs.com/",
-    migration: "https://defive.com/migration",
+    buySNS: "https://defive.com/swap?outputCurrency=0x7B0a41f0c17474e41a0c36c0Bf33b9AED06eE9f5",
     medium: "https://medium.com/@SonicSNS",
   },
 };

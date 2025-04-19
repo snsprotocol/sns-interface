@@ -46,10 +46,10 @@ export default function Home() {
       <div className="mt-4">
         <Snippet hideCopyButton hideSymbol variant="bordered">
           <span>
-            Claim your SNS on Sonic:
-            <Link isExternal href={siteConfig.links.migration}>
+            Buy SNS Token:
+            <Link isExternal href={siteConfig.links.buySNS}>
               <Code color="primary" className="ml-2">
-                defive.com/migration
+                defive.com
               </Code>
             </Link>
           </span>
